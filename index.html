@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOX ICONS CSS LIBRARY-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Image Slider Effect</title>
+</head>
+
+<body>
+    <div class="images">
+        <div class="image active" style="background-image: url(img/image-1.jpeg);">
+        </div>
+        <div class="image" style="background-image: url(img/image-2.jpeg);">
+        </div>
+        <div class="image" style="background-image: url(img/image-3.jpeg);">
+        </div>
+        <div class="image" style="background-image: url(img/image-4.jpeg);">
+        </div>
+        <div class="image" style="background-image: url(img/image-5.jpeg);">
+        </div>
+
+        <button class="arrow left-arrow" id="left-arrow">
+            <i class='bx bx-left-arrow-alt'></i>
+        </button>
+
+        <button class="arrow right-arrow" id="right-arrow">
+            <i class='bx bx-right-arrow-alt'></i>
+        </button>
+    </div>
+
+    <!-- ===== PROJECT INFO CARD ===== -->
+    <section class="project_info" id="project-info">
+        <div class="project_info_card">
+            <img src="ReadMe-Images/Web-Effect-Project-banner3.png" class="project_info_img" />
+            <h2>Project Name</h2>
+            <p>Image Slider Effect</p>
+            <h2>Project Key Concepts</h2>
+            <p>background image manipulation,<br /> sliding effect</p>
+            <i class='bx bx-x close' style='color:#000000' id="project-close"></i>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
